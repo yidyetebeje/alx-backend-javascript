@@ -1,4 +1,5 @@
-function dispalyMessage(){
-    process.stdout.write("Hello NodeJS!");
-}
+function dispalyMessage(msg){
+    process.stdout.write(msg);
+};
+
 module.exports = dispalyMessage;
